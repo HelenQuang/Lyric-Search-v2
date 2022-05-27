@@ -40,7 +40,7 @@ const App: React.FC = () => {
     const url = song.result.url;
 
     return (
-      <li key={song.result.title}>
+      <li key={song.result.id}>
         <span>
           <strong> {song.result.artist_names}</strong> - {song.result.title}
         </span>
